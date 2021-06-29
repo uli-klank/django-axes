@@ -136,7 +136,7 @@ class AxesDatabaseHandler(AbstractAxesHandler, AxesBaseHandler):
                     "http_accept": request.axes_http_accept,
                     "path_info": request.axes_path_info,
                     "failures_since_start": 1,
-                    "attempt_time": request.axes_attempt_time
+                    "attempt_time": request.axes_attempt_time,
                 }
             )
             # Update failed attempt information but do not touch the username, IP address, or user agent fields,
